@@ -56,7 +56,7 @@ void function weather() {
     this.render = render;
 
     script.onload = loaded;
-    script.src = 'http://api.openweathermap.org/data/2.5/forecast?q=Shanghai,cn&lang=zh_cn&callback=render';
+    script.src = 'http://api.openweathermap.org/data/2.5/forecast?q=Beijing,cn&lang=zh_cn&callback=render';
     body.appendChild(script);
   }
 
